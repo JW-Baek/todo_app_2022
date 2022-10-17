@@ -1,0 +1,21 @@
+$background-color:#22b8cf;
+//  변수: $, 영어 소문자, -, 숫자
+
+.TodoTemplate{
+    width: 512px;
+    margin: 6rem auto;
+    border-radius: 4px;
+    overflow: hidden;
+    .app-title{
+        background: $background-color;
+        color: #fff;
+        height: 4rem;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content{
+        background: #fff;
+    }
+}
